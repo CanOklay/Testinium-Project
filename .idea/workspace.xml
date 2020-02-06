@@ -3,7 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="09a97654-4639-439d-8aed-2a88f4057279" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasketPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductDetailPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/BasketPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ProductDetailPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddBasket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AddBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProductListPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +124,9 @@
       <workItem from="1580842767599" duration="14985000" />
       <workItem from="1580895821030" duration="20520000" />
       <workItem from="1580988199247" duration="211000" />
-      <workItem from="1580988560818" duration="3146000" />
+      <workItem from="1580988560818" duration="3614000" />
+      <workItem from="1580994587725" duration="12000" />
+      <workItem from="1580995025801" duration="14866000" />
     </task>
     <servers />
   </component>

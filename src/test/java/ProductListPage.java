@@ -1,37 +1,44 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
+import java.util.Random;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
 
 public class ProductListPage {
 
     public static final String VIEW = "view";
     public static final String COLUMN = "column";
     public static final String LINK = "plink";
+    public static final String PAGE_TWO = "2";
+
     private WebDriver driver;
     Thread thread;
 
+    @FindBy(id = PAGE_TWO)
+    private WebElement pageTwo;
+
+    @FindBy(id = VIEW)
+    private WebElement view;
+
     public ProductListPage(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public void nextPage () throws InterruptedException {
-
-        driver.findElement(By.linkText("2")).click();
+    public void nextPage() throws InterruptedException {
+        this.pageTwo.click();
         thread.sleep(2000);
-
     }
 
-    public void pickProduct () throws InterruptedException {
+    public void pickRandomProduct() throws InterruptedException {
+        List<WebElement> elements = this.view.findElements(By.className(COLUMN));
 
-        WebElement pro = driver.findElement(By.id(VIEW));
-        List<WebElement> elements = pro.findElements(By.className(COLUMN));
-
-        WebElement plink = elements.get(2).findElement(By.className(LINK));
+        Random random = new Random();
+        WebElement plink = elements.get(random.nextInt(elements.size())).findElement(By.className(LINK));
         plink.click();
         thread.sleep(2000);
     }
