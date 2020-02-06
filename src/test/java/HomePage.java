@@ -27,7 +27,8 @@ public class HomePage {
         this.search.sendKeys(searchText);
         thread.sleep(2000);
 
-        this.searchButton.click();
+        driver.findElement(By.className(SEARCH_BUTTON)).click();
+        //this.searchButton.click();
         thread.sleep(2000);
     }
 }

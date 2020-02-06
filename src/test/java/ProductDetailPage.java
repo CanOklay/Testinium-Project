@@ -16,8 +16,8 @@ public class ProductDetailPage {
     @FindBy(id = ADD_BASKET)
     private WebElement addBasket;
 
-    @FindBy(id = MY_BASKET)
-    private WebElement myBasket;
+    /*@FindBy(id = MY_BASKET)
+    private WebElement myBasket;*/
 
     public ProductDetailPage(WebDriver driver) {
         this.driver = driver;
@@ -28,7 +28,7 @@ public class ProductDetailPage {
         this.addBasket.click();
         thread.sleep(2000);
 
-        this.myBasket.click();
+        driver.findElement(By.className(MY_BASKET)).click();
         thread.sleep(2000);
     }
 }
