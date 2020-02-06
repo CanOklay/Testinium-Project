@@ -15,7 +15,6 @@ public class Basket {
     Thread thread;
 
     public Basket(WebDriver driver) {
-
         this.driver = driver;
     }
 

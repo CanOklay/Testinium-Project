@@ -16,15 +16,12 @@ public class LoginPage {
         this.driver = driver;
     }
 
-    public void login (String username, String password){
+    public void login (String username, String password) {
 
         driver.navigate().to(LOGIN_URL);
         driver.findElement(By.id(EMAIL)).sendKeys(username);
         driver.findElement(By.id(PASSWORD)).sendKeys(password);
         driver.findElement(By.id(LOGIN_BUTTON)).click();
 
-        //driver.findElement(By.className("radius")).click();
-
-        // String title = driver.findElement(By.cssSelector(".example h2")).getText();;
     }
 }
