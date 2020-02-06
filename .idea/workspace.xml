@@ -4,9 +4,6 @@
     <list default="true" id="09a97654-4639-439d-8aed-2a88f4057279" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +107,7 @@
       <workItem from="1580842767599" duration="14985000" />
       <workItem from="1580895821030" duration="20520000" />
       <workItem from="1580988199247" duration="211000" />
-      <workItem from="1580988560818" duration="1622000" />
+      <workItem from="1580988560818" duration="2603000" />
     </task>
     <servers />
   </component>
