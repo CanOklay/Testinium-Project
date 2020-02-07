@@ -4,17 +4,13 @@
     <list default="true" id="09a97654-4639-439d-8aed-2a88f4057279" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/workspace.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ProductListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BasketPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasketPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasketPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProductDetailPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ProductListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ProductListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,6 @@
   <component name="ProjectId" id="1XM4jRFyvbdLMjZaoZFG97lGMZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
@@ -121,7 +116,7 @@
       <workItem from="1580988199247" duration="211000" />
       <workItem from="1580988560818" duration="3614000" />
       <workItem from="1580994587725" duration="12000" />
-      <workItem from="1580995025801" duration="23711000" />
+      <workItem from="1580995025801" duration="23944000" />
     </task>
     <servers />
   </component>
