@@ -2,12 +2,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class Test {
@@ -62,10 +60,6 @@ public class Test {
         String basketPrice = driver.findElement(By.cssSelector(BASKET_PRICE)).getText();
 
         //Compares the price of product from the list and basket that have correct match.
-        /*if (basketPrice == productPrice) {
-            return;
-
-        }*/
         assertThat(productPrice, is(basketPrice));
         BasketPage basketPage = new BasketPage(driver);
 

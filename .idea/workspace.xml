@@ -4,13 +4,10 @@
     <list default="true" id="09a97654-4639-439d-8aed-2a88f4057279" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/workspace.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ProductListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
       <workItem from="1580988560818" duration="3614000" />
       <workItem from="1580994587725" duration="12000" />
       <workItem from="1580995025801" duration="24810000" />
-      <workItem from="1581061227341" duration="1439000" />
+      <workItem from="1581061227341" duration="1824000" />
     </task>
     <servers />
   </component>
