@@ -73,10 +73,10 @@ public class Test {
         //Deletes the products from the basket and checks that the basket is empty.
         basketPage.deleteProducts();
 
-        String cartEmptyCheck = driver.findElement(By.className("cartEmptyText")).getText();
+        String cartCheck = driver.findElement(By.className("cartEmptyText")).getText();
         thread.sleep(2000);
 
-        assertThat(cartEmptyCheck, containsString("Sepetiniz Boş"));
+        assertThat(cartCheck, containsString("Sepetiniz Boş"));
     }
 
     @After
