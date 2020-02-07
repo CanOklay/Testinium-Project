@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,11 +12,11 @@ public class ProductDetailPage {
     private WebDriver driver;
     Thread thread;
 
-    @FindBy(id = ADD_BASKET)
+    @FindBy(css = ADD_BASKET)
     private WebElement addBasket;
 
-    /*@FindBy(id = MY_BASKET)
-    private WebElement myBasket;*/
+    @FindBy(className = MY_BASKET)
+    private WebElement myBasket;
 
     public ProductDetailPage(WebDriver driver) {
         this.driver = driver;
@@ -28,7 +27,7 @@ public class ProductDetailPage {
         this.addBasket.click();
         thread.sleep(2000);
 
-        driver.findElement(By.className(MY_BASKET)).click();
+        this.myBasket.click();
         thread.sleep(2000);
     }
 }

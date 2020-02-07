@@ -13,16 +13,19 @@ public class ProductListPage {
     public static final String VIEW = "view";
     public static final String COLUMN = "column";
     public static final String LINK = "plink";
-    //public static final String PAGE_TWO = "2";
+    public static final String PAGE_TWO = "2";
 
     private WebDriver driver;
     Thread thread;
 
-    /*@FindBy(id = PAGE_TWO)
+    @FindBy(linkText = PAGE_TWO)
     private WebElement pageTwo;
 
     @FindBy(id = VIEW)
-    private WebElement view;*/
+    private WebElement view;
+
+    @FindBy(id = COLUMN)
+    private WebElement column;
 
     public ProductListPage(WebDriver driver) {
         this.driver = driver;
@@ -30,13 +33,12 @@ public class ProductListPage {
     }
 
     public void nextPage() throws InterruptedException {
-        driver.findElement(By.linkText("2")).click();
+        this.pageTwo.click();
         thread.sleep(2000);
     }
 
     public void pickRandomProduct() throws InterruptedException {
-        WebElement element = driver.findElement(By.id(VIEW));
-        List<WebElement> elements = driver.findElements(By.className(COLUMN));
+        List<WebElement> elements = this.view.findElements(By.className(COLUMN));
 
         Random random = new Random();
         WebElement link = elements.get(random.nextInt(elements.size())).findElement(By.className(LINK));

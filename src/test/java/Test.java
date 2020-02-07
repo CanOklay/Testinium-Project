@@ -25,56 +25,55 @@ public class Test {
 
     @org.junit.Test
     public void test() throws InterruptedException {
-        //www.n11.com sitesi açılır.
+        //Opens www.n11.com site.
         LoginPage loginPage = new LoginPage(driver);
 
-        //Ana sayfanın açıldığı kontrol edilir. Siteye login olunur.
+        //Checks that the login page is opened.
         loginPage.login("testiniumproje@gmail.com", "xyzf09456");
 
-        //Login işlemi kontrol edilir.
+        //Checks that the login is successfully done.
         String mainPageUrl= driver.getCurrentUrl();
         thread.sleep(2000);
 
         assertThat(mainPageUrl, is("https://www.n11.com/"));
 
-        //Arama kutucuğuna bilgisayar kelimesi girilir.
+        //Writes 'laptop' to the search box.
         HomePage homePage = new HomePage(driver);
-        homePage.search("dizüstü bilgisayar");
+        homePage.search("bilgisayar");
 
-        //Arama sonuçları sayfasından 2.sayfa açılır.
+        //Opens 2. page from the searched result page.
         ProductListPage productListPage = new ProductListPage(driver);
         productListPage.nextPage();
 
-        //2.sayfanın açıldığı kontrol edilir.
+        //Checks that the second page is opened.
         String laptopSearchSecondPage = driver.getCurrentUrl();
         thread.sleep(2000);
 
-        assertThat(laptopSearchSecondPage, is("https://www.n11.com/arama?q=diz%C3%BCst%C3%BC+bilgisayar&pg=2"));
+        assertThat(laptopSearchSecondPage, is("https://www.n11.com/arama?q=bilgisayar&pg=2"));
 
-        //Sonuca göre sergilenen ürünlerden rastgele bir ürün seçilir.
+        //Picks a random product among products that displayed in search result.
         productListPage.pickRandomProduct();
         WebElement productPrice = driver.findElement(By.className(LIST_PRICE));
 
-        //Seçilen ürün sepete eklenir.
+        //Adds the product to the basket.
         ProductDetailPage productDetailPage = new ProductDetailPage(driver);
         productDetailPage.addBasket();
         WebElement basketPrice = driver.findElement(By.cssSelector(BASKET_PRICE));
 
-        //Ürün†sayfasındaki fiyat ile sepette yer alan ürün fiyatının doğruluğu karşılaştırılır.
+        //Compares the price of product from the list and basket that have correct match.
         if (basketPrice == productPrice) {
             return;
         }
         BasketPage basketPage = new BasketPage(driver);
-        //basketPage.comparePrices();
 
-        //Adet arttırılarak ürün adedinin 2 olduğu doğrulanır.
+        //Increases the amount of the product and checks that the amounts are two or not.
         basketPage.increaseNumber();
         String title3 = driver.findElement(By.name("quantity")).getAttribute("value");
         thread.sleep(2000);
 
         assertThat(title3, is("2"));
 
-        //Ürün sepetten silinerek sepetin boş olduğu kontrol edilir.
+        //Deletes the products from the basket and checks that the basket is empty.
         basketPage.deleteProducts();
 
         String title4 = driver.findElement(By.className("cartEmptyText")).getText();
@@ -87,5 +86,4 @@ public class Test {
     public void teardown() {
         driver.close();
     }
-
 }

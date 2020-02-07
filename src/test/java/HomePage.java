@@ -15,7 +15,7 @@ public class HomePage {
     @FindBy(id = SEARCH)
     private WebElement search;
 
-    @FindBy(id = SEARCH_BUTTON)
+    @FindBy(className = SEARCH_BUTTON)
     private WebElement searchButton;
 
     public HomePage(WebDriver driver) {
@@ -27,8 +27,7 @@ public class HomePage {
         this.search.sendKeys(searchText);
         thread.sleep(2000);
 
-        driver.findElement(By.className(SEARCH_BUTTON)).click();
-        //this.searchButton.click();
+        this.searchButton.click();
         thread.sleep(2000);
     }
 }
