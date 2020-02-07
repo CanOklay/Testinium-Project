@@ -66,7 +66,7 @@ public class Test {
         }
         BasketPage basketPage = new BasketPage(driver);
 
-        //Increases the amount of the product and checks that the amounts are two or not.
+        //Increases the amount of the product and checks if the amounts is 2 or not.
         basketPage.increaseNumber();
         String title3 = driver.findElement(By.name("quantity")).getAttribute("value");
         thread.sleep(2000);
