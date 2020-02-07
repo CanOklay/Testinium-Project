@@ -7,11 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class Test {
     public static final String BASKET_PRICE = "#newCheckout > div > div.checkoutContainer > div.left > div.cartUpdatePartContainer > section > table:nth-child(5) > tbody > tr > td.prodPrice > div.priceTag > div";
-    public static final String LIST_PRICE = "newPrice";
+    public static final String LIST_PRICE = "#contentProDetail > div > div.proDetailArea > div.proDetail > div.paymentDetail > div.price-cover > div > div.priceDetail > div > ins";
 
     private WebDriver driver;
     Thread thread;
@@ -53,33 +54,35 @@ public class Test {
 
         //Picks a random product among products that displayed in search result.
         productListPage.pickRandomProduct();
-        WebElement productPrice = driver.findElement(By.className(LIST_PRICE));
+        String productPrice = driver.findElement(By.cssSelector(LIST_PRICE)).getText();
 
         //Adds the product to the basket.
         ProductDetailPage productDetailPage = new ProductDetailPage(driver);
         productDetailPage.addBasket();
-        WebElement basketPrice = driver.findElement(By.cssSelector(BASKET_PRICE));
+        String basketPrice = driver.findElement(By.cssSelector(BASKET_PRICE)).getText();
 
         //Compares the price of product from the list and basket that have correct match.
-        if (basketPrice == productPrice) {
+        /*if (basketPrice == productPrice) {
             return;
-        }
+
+        }*/
+        assertThat(productPrice, is(basketPrice));
         BasketPage basketPage = new BasketPage(driver);
 
         //Increases the amount of the product and checks if the amounts is 2 or not.
         basketPage.increaseNumber();
-        String title3 = driver.findElement(By.name("quantity")).getAttribute("value");
+        String quantityCheck = driver.findElement(By.name("quantity")).getAttribute("value");
         thread.sleep(2000);
 
-        assertThat(title3, is("2"));
+        assertThat(quantityCheck, is("2"));
 
         //Deletes the products from the basket and checks that the basket is empty.
         basketPage.deleteProducts();
 
-        String title4 = driver.findElement(By.className("cartEmptyText")).getText();
+        String cartEmptyCheck = driver.findElement(By.className("cartEmptyText")).getText();
         thread.sleep(2000);
 
-        assertThat(title4, containsString("Sepetiniz Boş"));
+        assertThat(cartEmptyCheck, containsString("Sepetiniz Boş"));
     }
 
     @After
