@@ -2,15 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09a97654-4639-439d-8aed-2a88f4057279" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-gauge/demo-gauge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deneme/deneme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gittigidiyor-project/gittigidiyor-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gittigidiyor-selenium/gittigidiyor-selenium.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gittigidiyor-test/gittigidiyor-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gittigidiyor1/gittigidiyor1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gittigidiyortest/gittigidiyortest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hakanoklay/gittigidiyortest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hakanoklay/src/test/java/org/testinium/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testinium-homework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/src/test/java/com/demo/base/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo/src/test/java/com/demo/base/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaugeDeneme/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/../GaugeDeneme/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaugeDeneme/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaugeDeneme/.idea/externalDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaugeDeneme/.idea/externalDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaugeDeneme/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GaugeDeneme/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GaugeDeneme/GaugeDeneme.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/specs/GittiGidiyorTest.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/constans/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/constans/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/page/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/page/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/test/StepImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/test/StepImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/src/test/java/com/gittigidiyor/util/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GittigidiyorTest-1-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gittigidiyor-selenium/src/test/java/com/testinium/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testinium-Project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AddBasket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Basket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasketPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductDetailPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ProductListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +83,11 @@
   </component>
   <component name="ProjectId" id="1XM4jRFyvbdLMjZaoZFG97lGMZH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -61,18 +106,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.Test.test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,7 +148,13 @@
       <workItem from="1580988560818" duration="3614000" />
       <workItem from="1580994587725" duration="12000" />
       <workItem from="1580995025801" duration="24810000" />
-      <workItem from="1581061227341" duration="2349000" />
+      <workItem from="1581061227341" duration="3236000" />
+      <workItem from="1581436077266" duration="209000" />
+      <workItem from="1581967879798" duration="609000" />
+      <workItem from="1583680171921" duration="172000" />
+      <workItem from="1585414998559" duration="27000" />
+      <workItem from="1585555504499" duration="1409000" />
+      <workItem from="1585926316533" duration="772000" />
     </task>
     <servers />
   </component>
